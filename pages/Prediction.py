@@ -98,9 +98,10 @@ if prediction_button:
 #     r2 = r2_score(y_test, y_pred)
     
 #     st.write("R-squared:" , round(r2,2))
-    matrix = confusion_matrix(X_test, y_test)
+    matrix = confusion_matrix(y_test, y_pred)
     Accuracy = (TP + TN)  /(TP+ FP+ TN+ FN)
     st.write(Accuracy)
+    #st.write(Accuracy)
     
 
     
