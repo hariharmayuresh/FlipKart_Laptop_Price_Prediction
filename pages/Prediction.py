@@ -93,7 +93,7 @@ if prediction_button:
     st.write('Price Prediction(INR):', round(new_prediction[0],))
     
     
-    st.title("Accuracy")
+    st.title("Accuraci")
 #     reg_model.fit(X_train, y_train)
 #     r2 = r2_score(y_test, y_pred)
     
