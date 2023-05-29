@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder
 from PIL import Image
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
-from sklearn.metrics import confusion_matrix
+
 
 st.set_page_config(page_title='Laptop Price Prediciton')
 st.title(":green[Laptop Price Prediciton]")
@@ -94,14 +94,11 @@ if prediction_button:
     
     
     st.title("Accuraci")
-#     reg_model.fit(X_train, y_train)
-#     r2 = r2_score(y_test, y_pred)
+    reg_model.fit(X_train, y_train)
+    r2 = r2_score(y_test, y_pred)
     
-#     st.write("R-squared:" , round(r2,2))
-    matrix = confusion_matrix(y_test, y_pred)
-    #Accuracy = (TP + TN)  /(TP+ FP+ TN+ FN)
-    #st.write(matrix)
-    #st.write(Accuracy)
+    st.write("R-squared:" , round(r2,2))
+
     
 
     
