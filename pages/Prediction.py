@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder
 from PIL import Image
-from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
+from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error, accuracy_score
 
 
 st.set_page_config(page_title='Laptop Price Prediciton')
@@ -95,9 +95,9 @@ if prediction_button:
     
     st.title("Accuracy")
     reg_model.fit(X_train, y_train)
-    r2 = r2_score(y_test, y_pred)
+    acc = accuracy_score(y_test, y_pred)
     
-    st.write("R-squared:" , round(r2,2))
+    st.write( round(acc,2))
 
     
 
