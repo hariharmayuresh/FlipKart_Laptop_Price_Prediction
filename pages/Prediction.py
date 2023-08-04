@@ -95,9 +95,9 @@ if prediction_button:
     
     st.title("Accuracy")
     reg_model.fit(X_train, y_train)
-    acc = accuracy_score(y_test, y_pred)
+    r2 = r2_score(y_test, y_pred)
     
-    st.write( round(acc,2))
+    st.write( round(r2,2))
 
     
 
