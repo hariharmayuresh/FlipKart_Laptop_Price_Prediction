@@ -10,7 +10,7 @@ st.set_page_config(
 
 name = ":blue[Mayuresh] :blue[Harihar]"
 bio = ":green[Data Science enthusiast]"
-linkedin_url = "https://www.linkedin.com/in/mayuresh-harihar-2a170721a/"
+linkedin_url = "https://www.linkedin.com/in/mayuresh-harihar/"
 github_url = "https://github.com/hariharmayuresh"
 instagram_url = "https://www.instagram.com/hariharmayuresh/"
 
