@@ -54,11 +54,11 @@ To build an ML-powered interface where users can input laptop features and recei
 
 ## 📊 Tech Stack
 
- **Python**: Core programming language
- **Pandas, NumPy**: Data manipulation and preprocessing
- **Matplotlib, Seaborn**: Visualization and EDA
- **Scikit-Learn**: Model building and evaluation
- **Streamlit**: Web app deployment 
+ - **Python**: Core programming language
+ - **Pandas, NumPy**: Data manipulation and preprocessing
+ - **Matplotlib, Seaborn**: Visualization and EDA
+ - **Scikit-Learn**: Model building and evaluation
+ - **Streamlit**: Web app deployment 
 
 ---
 
